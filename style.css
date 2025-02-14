@@ -1,0 +1,139 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Bonbon&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --cor-primaria: #2C3930;
+    --cor-secundaria: #DCD7C9;
+    --cor-terciaria: #A27B5C;
+    --cor-quartenaria: #3F4F44;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+.cabecalho { 
+    padding: 2% 0% 0% 8%;
+    
+}
+
+.sobre__mim {
+    text-decoration: none;
+    font-family: "Autour One", serif;
+    color: var(--cor-secundaria);
+    
+}
+
+.cabecalho__home {
+    padding: 2% 0% 0% 8%;
+}
+.sobre__mim__home {
+    text-decoration: none;
+    font-family: "Autour One", serif;
+    color: var(--cor-secundaria);
+}
+
+.conteudo__pai {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8%;
+}
+
+.conteudo__jogo {
+    width: 750px;
+
+}
+
+.conteudo__titulo {
+    display: flex;
+    padding: 2%;
+    justify-content: center;
+    font-size: 40px;
+    color: var(--cor-terciaria);
+    font-family: "Bonbon", serif;
+}
+
+.conteudo__paragrafo {
+    padding: 1%;
+    font-size: 22px;
+    font-family: "Autour One", serif;
+
+}
+
+.alura__conf {
+    color: var(--cor-secundaria);
+    border-radius: 10%;
+}
+
+.alura__conf:hover {
+    background-color: var(--cor-quartenaria);
+}
+
+
+strong {
+    color: var(--cor-terciaria);
+    border: 1px solid var(--cor-terciaria);
+}
+
+strong:hover {
+    background-color: var(--cor-quartenaria);
+
+}
+
+.acesse__redes {
+    display: flex;
+    justify-content: center;
+    font-family: "Autour One", serif;
+    font-size: 30;
+    color: var(--cor-terciaria);
+    padding: 1%;
+    gap: 1%;
+}
+
+.ancoras__links {
+    display: flex;
+    justify-content: center;
+
+}
+
+.ancoras__links__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--cor-secundaria);
+    text-decoration: none;
+    font-family: "Autour One", serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.ancoras__links__link:hover {
+    color: var(--cor-terciaria);
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    border: 1px solid var(--cor-secundaria);
+    color: var(--cor-quartenaria);
+    background-color: var(--cor-secundaria);
+    font-size: 25px;
+    width: 600;
+    font-family: "Bonbon", serif;
+}
+
+.sobre__mim:hover {
+    color: var(--cor-terciaria);
+}
+
+.sobre__mim__home:hover {
+    color: var(--cor-terciaria);
+}
